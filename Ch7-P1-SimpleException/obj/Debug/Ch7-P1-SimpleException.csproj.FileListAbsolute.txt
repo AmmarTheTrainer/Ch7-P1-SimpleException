@@ -5,3 +5,10 @@ C:\Users\Ammar Shaukat\Documents\Projects\Ch7-P1-SimpleException\Ch7-P1-SimpleEx
 C:\Users\Ammar Shaukat\Documents\Projects\Ch7-P1-SimpleException\Ch7-P1-SimpleException\obj\Debug\Ch7-P1-SimpleException.csproj.CoreCompileInputs.cache
 C:\Users\Ammar Shaukat\Documents\Projects\Ch7-P1-SimpleException\Ch7-P1-SimpleException\obj\Debug\Ch7-P1-SimpleException.exe
 C:\Users\Ammar Shaukat\Documents\Projects\Ch7-P1-SimpleException\Ch7-P1-SimpleException\obj\Debug\Ch7-P1-SimpleException.pdb
+C:\Users\Ammar Shaukat\Documents\GitHub\Ch7-P1-SimpleException\Ch7-P1-SimpleException\bin\Debug\Ch7-P1-SimpleException.exe.config
+C:\Users\Ammar Shaukat\Documents\GitHub\Ch7-P1-SimpleException\Ch7-P1-SimpleException\bin\Debug\Ch7-P1-SimpleException.exe
+C:\Users\Ammar Shaukat\Documents\GitHub\Ch7-P1-SimpleException\Ch7-P1-SimpleException\bin\Debug\Ch7-P1-SimpleException.pdb
+C:\Users\Ammar Shaukat\Documents\GitHub\Ch7-P1-SimpleException\Ch7-P1-SimpleException\obj\Debug\Ch7-P1-SimpleException.csprojAssemblyReference.cache
+C:\Users\Ammar Shaukat\Documents\GitHub\Ch7-P1-SimpleException\Ch7-P1-SimpleException\obj\Debug\Ch7-P1-SimpleException.csproj.CoreCompileInputs.cache
+C:\Users\Ammar Shaukat\Documents\GitHub\Ch7-P1-SimpleException\Ch7-P1-SimpleException\obj\Debug\Ch7-P1-SimpleException.exe
+C:\Users\Ammar Shaukat\Documents\GitHub\Ch7-P1-SimpleException\Ch7-P1-SimpleException\obj\Debug\Ch7-P1-SimpleException.pdb

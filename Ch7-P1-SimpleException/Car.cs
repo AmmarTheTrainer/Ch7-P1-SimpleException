@@ -12,7 +12,7 @@ namespace Ch7_P1_SimpleException
         public const int MaxSpeed = 100;
         // Car properties.
         public int CurrentSpeed { get; set; } = 0;
-        public string PetName { get; set; } = "";
+        public string CarName { get; set; } = "";
         // Is the car still operational?
         private bool carIsDead;
         // A car has-a radio.
@@ -22,13 +22,35 @@ namespace Ch7_P1_SimpleException
         public Car(string name, int speed)
         {
             CurrentSpeed = speed;
-            PetName = name;
+            CarName = name;
         }
 
         public void CrankTunes(bool state)
         {
             // Delegate request to inner object.
             theMusicBox.TurnOn(state);
+        }
+
+        // See if Car has overheated.
+        public void Accelerate(int delta)
+        {
+            if (carIsDead)
+                Console.WriteLine("{0} is out of order...", CarName);
+            else
+            {
+                CurrentSpeed += delta;
+                if (CurrentSpeed > MaxSpeed)
+                {
+                    //Console.WriteLine("{0} has overheated!", PetName);
+                    CurrentSpeed = 0;
+                    carIsDead = true;
+
+                    // Use the "throw" keyword to raise an exception.
+                    throw new Exception($"{CarName} has overheated!");
+                }
+                else
+                    Console.WriteLine("=> CurrentSpeed = {0}", CurrentSpeed);
+            }
         }
     }
 }
