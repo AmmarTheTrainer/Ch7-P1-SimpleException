@@ -45,8 +45,21 @@ namespace Ch7_P1_SimpleException
                     CurrentSpeed = 0;
                     carIsDead = true;
 
-                    // Use the "throw" keyword to raise an exception.
-                    throw new Exception($"{CarName} has overheated!");
+                    //// Use the "throw" keyword to raise an exception.
+                    //throw new Exception($"{CarName} has overheated!");
+
+
+
+                    // We need to call the HelpLink property, thus we need to
+                    // create a local variable before throwing the Exception object.
+                    Exception ex = new Exception($"{CarName} has overheated!");
+                    ex.HelpLink = "http://www.Apni-Auqat-Main-Raho.com";
+
+                    // Stuff in custom data regarding the error.
+                    ex.Data.Add("TimeStamp", $"The car exploded at {DateTime.Now}");
+                    ex.Data.Add("Cause", "You have a Loud foot.");
+
+                    throw ex;
                 }
                 else
                     Console.WriteLine("=> CurrentSpeed = {0}", CurrentSpeed);
