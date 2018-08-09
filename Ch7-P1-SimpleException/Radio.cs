@@ -6,15 +6,11 @@ using System.Threading.Tasks;
 
 namespace Ch7_P1_SimpleException
 {
-    class Program
+    class Radio
     {
-        static void Main(string[] args)
+        public void TurnOn(bool on)
         {
-            Console.WriteLine(" Simple Exception  ");
-
-
-
-            Console.ReadLine();
+            Console.WriteLine(on ? "Jamming..." : "Quiet time...");
         }
     }
 }
