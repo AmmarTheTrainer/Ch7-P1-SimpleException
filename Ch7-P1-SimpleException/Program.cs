@@ -15,7 +15,6 @@ namespace Ch7_P1_SimpleException
 
             Console.WriteLine("=> Creating a car and stepping on it!");
             Car myCar = new Car(" Suzuki FX ", 20);
-            myCar.CrankTunes(true);
 
             try
             {
@@ -29,7 +28,7 @@ namespace Ch7_P1_SimpleException
                 Console.WriteLine("\nMember name: {0}", e.TargetSite);
                 Console.WriteLine("Class defining member: {0}", e.TargetSite.DeclaringType);
                 Console.WriteLine("Member type: {0}", e.TargetSite.MemberType);
-                
+
                 Console.WriteLine("\nMessage: {0}", e.Message);
                 Console.WriteLine("Source: {0}", e.Source);
 

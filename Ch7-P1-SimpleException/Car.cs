@@ -45,13 +45,15 @@ namespace Ch7_P1_SimpleException
                     CurrentSpeed = 0;
                     carIsDead = true;
 
-                    //// Use the "throw" keyword to raise an exception.
-                    //throw new Exception($"{CarName} has overheated!");
+                    // Use the "throw" keyword to raise an exception.
+                    // throw new Exception($"{CarName} has overheated!");
 
+                    //throw new Exception();
 
 
                     // We need to call the HelpLink property, thus we need to
                     // create a local variable before throwing the Exception object.
+
                     Exception ex = new Exception($"{CarName} has overheated!");
                     ex.HelpLink = "http://www.Apni-Auqat-Main-Raho.com";
 
